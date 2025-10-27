@@ -9,6 +9,16 @@
 	"compatibility_date": "2025-10-24",
 	"observability": {
 		"enabled": true
+	},
+	"kv_namespaces": [
+		{
+			"binding": "UR_LY",
+			"id": "439fbc2e270f4ab2a9034019527634b1",
+			"remote": true
+		}
+	],
+	"triggers": {
+		"crons": ["0 23 * * *"]
 	}
 	/**
 	 * Smart Placement
